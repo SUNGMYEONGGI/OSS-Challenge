@@ -17,7 +17,7 @@ app = Flask(__name__)
 
 
 # score predict모델을 로드하고 예측 실행
-loaded_model = joblib.load('model.pkl')
+loaded_model = joblib.load('data/weights/model.pkl')
 
 
 # @app.route('/')
